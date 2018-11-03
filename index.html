@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#34495e">
+  <title>Inkerk 硬核區塊鏈</title>
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+
+  
+
+  
+
+</head>
+
+<body>
+  <div class="mobile-header">
+    <span><i class="iconfont icon-turnon" id="mobile-nav-toggle"></i></span>
+    <div class="mobile-logo">
+      <a href="/.">Inkerk</a>
+    </div>
+  </div>
+  <div class="page" id="mobile-nav-panel">
+    <div class="container">
+      <header class="site-nav">
+      <div class="nav-content">
+        <div class="logo">
+          <a href="/">Inkerk</a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            
+              <li class="menu-item">
+                <a href="/" class="menu-item-link"><i class="iconfont icon-home"></i>首页</a>
+              </li>
+            
+              <li class="menu-item">
+                <a href="/archives" class="menu-item-link"><i class="iconfont icon-archive"></i>归档</a>
+              </li>
+            
+              <li class="menu-item">
+                <a href="/about" class="menu-item-link"><i class="iconfont icon-about"></i>关于</a>
+              </li>
+            
+              <li class="menu-item">
+                <a href="/atom.xml" class="menu-item-link"><i class="iconfont icon-rss"></i>Feed订阅</a>
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+</header>
+
+      <div class="banner">
+  <div class="show">
+    <!-- <img src="/" alt="banner"> -->
+    <div class="banner-title">
+      
+        <div class="intro">
+          In Kerk We Trust
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+      <main class="main"id="main">
+          <section class="posts">
+  
+    <article class="post" id="post-excerpt">
+      <header>
+        <div class="post-title">
+          <h1><a class="post-title-link" href="/2018/11/01/woocommerce-customize-erc20-currency-plugin/">Woocommerce Customize ERC20 Currency 插件</a></h1>
+        </div>
+        <div class="post-meta">
+          <span class="post-time"><i class="iconfont icon-calendar"></i>2018-11-01</span>
+          
+          <!---------------------------------------->
+            
+        <!----------------------------------------->
+        </div>
+      </header>
+      <div class="post-content">
+        <!-------------->
+        
+          <p>在开发 Woocommerce 的 ERC20 Token 支付插件时，我们发现了一个问题，现有的 ERC20 支付插件往往是基于现有的货币体系来实现的，也就是从一开始，其锚定的货币便是某一种法币，比如，人民币、美元、商品的价格计算都是基于法币进行的，这样会导致插件需要考虑不同货币之间的换算，以及在数字货币之间的换算问题，稍有不慎，就设置错误了。</p>
+<p>我们考虑，开发一款原生支持 ERC20 Token 的插件，来满足支付的需求，那么就要求 Woocommerce 能够以 ERC20 Token 来作为商城的支付货币，但是，Woocommerce 默认的货币系统中并不包含 ERC20  Token。</p>
+<p>因此，为了方便用户在自己的商城中加入 ERC20 Token ，我们开发出了 「Woocommerce Customize ERC20 Currency」 插件。</p>
+<p><strong>Woocommerce Customize ERC20 Currency</strong> 插件能够为 WooCommerce 添加自定义货币的功能，推荐和 Woocommerce ERC20 Payment Gateway 插件联合使用。</p>
+<h2 id="Woocommerce-Customize-ERC20-Currency-的安装"><a href="#Woocommerce-Customize-ERC20-Currency-的安装" class="headerlink" title="Woocommerce Customize ERC20 Currency 的安装"></a>Woocommerce Customize ERC20 Currency 的安装</h2><p><strong>Woocommerce Customize ERC20 Currency </strong>目前已经上架 WordPress 官方商城，因此，你可以直接在 WordPres 后台安装相关插件。</p>
+<blockquote>
+<p>安装 Woocommerce Customize ERC20 Currency 前请确保你已经安装并启用了 WooCommerce。</p>
+</blockquote>
+<p>访问 WordPress 后台的插件安装界面,在右上角搜索框内输入「<strong>Woocommerce Customize ERC20 Currency</strong>」，然后点击搜索，在搜索结果中即可看到插件。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/e3yp9.jpg" alt=""></p>
+<p>点击现在安装，即可安装插件。</p>
+<h2 id="插件配置"><a href="#插件配置" class="headerlink" title="插件配置"></a>插件配置</h2><p><strong>安装并启用插件</strong>后，就可以配置插件了。</p>
+<p>打开后台侧边栏「 Settings」-「WooCommerce ERC20 货币自定义」页面，可以自定义货币的名称和符号。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/x0w09.jpg" alt=""></p>
+<p>在设置界面，你可以设置自定义货币的名称，以及其对应的符号。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/uqun9.jpg" alt=""></p>
+<p>货币名称将会显示在列表中，用于选择不同的货币，货币符号则可以根据设置，显示在价格的前后，其作用类似于人民币的<code>¥</code> 和美元的 <code>$</code>。</p>
+<h2 id="修改货币"><a href="#修改货币" class="headerlink" title="修改货币"></a>修改货币</h2><p>设置完自定义的货币后，你就可以设置 WooCommerce 的支付货币了。</p>
+<p>打开后台侧边栏 「WooCommerce」—「设置」，将界面拖动到底部，可以看到币种选择。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/vvebf.jpg" alt=""></p>
+<p>在币种选择中，选择你自己的货币。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/zxhyj.jpg" alt=""></p>
+<p>并设置货币符号的显示的位置，并保存。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/nh9v8.jpg" alt=""></p>
+<p>这样，就完成了 WooCommerce 使用自定义的货币的功能了。</p>
+<p>前台展示效果如下：</p>
+<p><img src="https://postimg.aliavv.com/newmbp/sqsi3.jpg" alt=""></p>
+<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p>项目 Github 地址：<a href="https://github.com/inKerk/woocommerce-custom-erc20-currencies" target="_blank" rel="noopener">https://github.com/inKerk/woocommerce-custom-erc20-currencies</a></p>
+<p>WordPress 官方市场地址：<a href="https://wordpress.org/plugins/woo-custom-erc20/" target="_blank" rel="noopener">https://wordpress.org/plugins/woo-custom-erc20/</a></p>
+
+        
+        <!-------------->
+      </div>
+      <div class="post-tags">
+      
+    </div>
+    </article>
+  
+    <article class="post" id="post-excerpt">
+      <header>
+        <div class="post-title">
+          <h1><a class="post-title-link" href="/2018/11/01/woocommerce-erc20-payment-gateway-plugin/">Woocommerce ERC20 Payment Gateway 插件</a></h1>
+        </div>
+        <div class="post-meta">
+          <span class="post-time"><i class="iconfont icon-calendar"></i>2018-11-01</span>
+          
+          <!---------------------------------------->
+            
+        <!----------------------------------------->
+        </div>
+      </header>
+      <div class="post-content">
+        <!-------------->
+        
+          <p>作为世界上使用人数最多的 CMS （内容管理系统），WordPress 拥有大量的拥趸，而 WooCommerce 作为 WordPres 中使用人数最多的商城插件，自然很适合帮助创业者快速建立起一个完善的商城工具。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/pu2lg.png" alt=""></p>
+<p><strong>WooCommerce ERC20 Payment Gateway</strong> 是 Inkerk Blockchain Inc. 开发的一款用于 WooCommerce 的支付网关插件，能够为基于 WordPress 和 WooCommerce 的在线商城引入 ERC20 支付功能。</p>
+<h3 id="插件功能"><a href="#插件功能" class="headerlink" title="插件功能"></a>插件功能</h3><ol>
+<li>原生的 ERC20 Token 的支持</li>
+<li>交易 tx 记录在订单信息中</li>
+<li>支持自定义 Token 名称（由 Woocommerce Customize ERC20 Currency 插件完成)</li>
+</ol>
+<h3 id="支付说明"><a href="#支付说明" class="headerlink" title="支付说明"></a>支付说明</h3><p><strong>插件当前版本仅在订单备注中记录了 tx ，没有进行订单状态的自动变更，因此，需要管理员自行处理订单。后续会随着插件迭代逐步考虑实现自动更新订单状态。</strong></p>
+<p>用户支付完成后，在订单的备注中会记录交易的 tx ，备查。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/esajf.jpg" alt=""></p>
+<h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>访问 WordPress 后台，在添加插件页面搜索 「<strong>WooCommerce ERC20 Payment Gateway</strong>」，在搜索结果中找到插件并安装即可。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/2wru5.jpg" alt=""></p>
+<h3 id="配置插件"><a href="#配置插件" class="headerlink" title="配置插件"></a>配置插件</h3><p><strong>安装并启用插件后</strong>，需要对插件进行一定的配置后才可以正常使用。</p>
+<p>打开 「<strong>WooCommerce</strong>」—「<strong>设置</strong>」—「<strong>付款</strong>」</p>
+<p><img src="https://postimg.aliavv.com/newmbp/dmxxc.jpg" alt=""></p>
+<p>在这里你可以看到多种不同的支付方式。<strong>关闭其他的支付方式</strong>，并<strong>启用<em>使用 ERC 20 Token 支付</em></strong> 支付方式。</p>
+<p>勾选为启用后，点击下方的保存更改，启用 ERC 20 Token 支付。</p>
+<p>启用成功后，点击支付方式后的「管理」按钮，进入到网关设置界面。</p>
+<h4 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h4><p><img src="https://postimg.aliavv.com/newmbp/q9zt8.jpg" alt=""></p>
+<p>首先是配置支付网关的信息。设置支付方式的标题，引导客户使用对应的 Token 支付，建议设置为「使用 XXX 支付」，语义明确。三者位置示意图如下：</p>
+<p><img src="https://postimg.aliavv.com/newmbp/7m735.jpg" alt=""></p>
+<p>在完成了支付方式的设置后，就需要配置 Metamask 支付参数了。</p>
+<h4 id="支付参数"><a href="#支付参数" class="headerlink" title="支付参数"></a>支付参数</h4><p><img src="https://postimg.aliavv.com/newmbp/0jvum.jpg" alt=""></p>
+<p>支付参数一共有4项，分别是</p>
+<ol>
+<li><strong>钱包地址</strong>：钱包地址需要填入收款人的地址。也就是商店主人的钱包地址。</li>
+<li><strong>合约 ABI</strong>：合约 ABI 用于发起转账，你可以在 etherscan.io 上的合约页面中找到它。</li>
+<li><strong>合约地址</strong>：合约的地址用于发起转账，你可以在 etherscan.io 找到它。</li>
+<li><strong>Gas 提醒</strong>：Gas 提醒将会展示在支付界面，用于提醒用户支付较高的 gas ，从而可以提升交易完成的速度。</li>
+</ol>
+<h3 id="帮助内容"><a href="#帮助内容" class="headerlink" title="帮助内容"></a>帮助内容</h3><h4 id="如何找到-ABI-？"><a href="#如何找到-ABI-？" class="headerlink" title="如何找到 ABI ？"></a>如何找到 ABI ？</h4><p>打开 Etherscan ，找到你自己的合约，找到 Code 一栏。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/jhhpc.jpg" alt=""></p>
+<p>向下拖动后，可以找到合约的ABI，点击这里的 <strong>Copy</strong> 按钮，然后粘贴到插件设置界面即可。</p>
+<p><img src="https://postimg.aliavv.com/newmbp/519dv.jpg" alt=""></p>
+<h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h3><p>WordPress 官方插件市场：<a href="https://wordpress.org/plugins/woo-erc20-payment-gateway/" target="_blank" rel="noopener">https://wordpress.org/plugins/woo-erc20-payment-gateway/</a></p>
+<p>Github ：<a href="https://github.com/inKerk/woocommerce-erc20-payment-gateway" target="_blank" rel="noopener">https://github.com/inKerk/woocommerce-erc20-payment-gateway</a></p>
+
+        
+        <!-------------->
+      </div>
+      <div class="post-tags">
+      
+    </div>
+    </article>
+  
+    <article class="post" id="post-excerpt">
+      <header>
+        <div class="post-title">
+          <h1><a class="post-title-link" href="/2018/10/31/hello-world/">Hello World</a></h1>
+        </div>
+        <div class="post-meta">
+          <span class="post-time"><i class="iconfont icon-calendar"></i>2018-11-01</span>
+          
+          <!---------------------------------------->
+            
+        <!----------------------------------------->
+        </div>
+      </header>
+      <div class="post-content">
+        <!-------------->
+        
+          <p>Hello World!</p>
+<p>歡迎來到硬核區塊鏈 Blog。</p>
+
+        
+        <!-------------->
+      </div>
+      <div class="post-tags">
+      
+    </div>
+    </article>
+  
+</section>
+
+          
+     <nav class="pagination">
+    
+    
+  </nav>
+
+
+          
+
+      </main>
+    </div>
+    <footer>
+      <div class="social-links">
+        
+          
+            <a href="https://www.zhihu.com/"><i class="iconfont icon-zhihu"></i></a>
+          
+        
+          
+            <a href="https://weibo.com"><i class="iconfont icon-weibo"></i></a>
+          
+        
+          
+            <a href="https://github.com/"><i class="iconfont icon-github"></i></a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+      
+        <div class="quote">
+          <p>Love all, trust a few, do wrong to none.——William Shakespeare</p>
+        </div>
+      
+      <div class="copyright">
+        <p>
+          由 <a href="https://hexo.io/">Hexo</a> 强力驱动
+          <span>|</span>
+          主题 - <a href="https://github.com/wa-ri/hexo-theme-ztopic">ztopic</a>
+        </p><p>
+          <span>
+          
+          &copy;
+          
+            2018
+          
+          </span>
+          <i class="iconfont icon-circle"></i>
+          <span>Inkerk Inc</span>
+        </p>
+      </div>
+</footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <div id="mobile-nav">
+  <nav id="mobile-nav-menu">
+    
+      <a href="/" class="mobile-nav-link"><i class="iconfont icon-home"></i>首页</a>
+    
+      <a href="/archives" class="mobile-nav-link"><i class="iconfont icon-archive"></i>归档</a>
+    
+      <a href="/about" class="mobile-nav-link"><i class="iconfont icon-about"></i>关于</a>
+    
+      <a href="/atom.xml" class="mobile-nav-link"><i class="iconfont icon-rss"></i>Feed订阅</a>
+    
+    <div class="mobile-intro"><i class="iconfont icon-pen"></i>In Kerk We Trust</div>
+  </nav>
+</div>
+
+
+  <script src="/libs/jQuery/jquery-3.2.1.min.js"></script>
+  <script src="/libs/slideout/slideout.min.js"></script>
+  
+    <link rel="stylesheet" href="/libs/fancybox/jquery.fancybox.css">
+    <script src="/libs/fancybox/jquery.fancybox.pack.js"></script>
+  
+  
+
+  <script src="/js/ztopic.js"></script>
+</body>
+</html>

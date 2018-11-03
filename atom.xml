@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Inkerk 硬核區塊鏈</title>
+  
+  <subtitle>InKerk硬核區塊鏈</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://inkerk.github.io/"/>
+  <updated>2018-11-03T01:31:57.877Z</updated>
+  <id>https://inkerk.github.io/</id>
+  
+  <author>
+    <name>Inkerk Inc</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Woocommerce Customize ERC20 Currency 插件</title>
+    <link href="https://inkerk.github.io/2018/11/01/woocommerce-customize-erc20-currency-plugin/"/>
+    <id>https://inkerk.github.io/2018/11/01/woocommerce-customize-erc20-currency-plugin/</id>
+    <published>2018-11-01T03:53:49.000Z</published>
+    <updated>2018-11-03T01:31:57.877Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在开发 Woocommerce 的 ERC20 Token 支付插件时，我们发现了一个问题，现有的 ERC20
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Woocommerce ERC20 Payment Gateway 插件</title>
+    <link href="https://inkerk.github.io/2018/11/01/woocommerce-erc20-payment-gateway-plugin/"/>
+    <id>https://inkerk.github.io/2018/11/01/woocommerce-erc20-payment-gateway-plugin/</id>
+    <published>2018-11-01T03:47:47.000Z</published>
+    <updated>2018-11-03T01:31:57.877Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;作为世界上使用人数最多的 CMS （内容管理系统），WordPress 拥有大量的拥趸，而 WooCommerce 作为 WordPres 中使用人数最多的商城插件，自然很适合帮助创业者快速建立起一个完善的商城工具。&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://inkerk.github.io/2018/10/31/hello-world/"/>
+    <id>https://inkerk.github.io/2018/10/31/hello-world/</id>
+    <published>2018-10-31T16:00:00.000Z</published>
+    <updated>2018-11-03T01:31:57.877Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello World!&lt;/p&gt;
+&lt;p&gt;歡迎來到硬核區塊鏈
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
