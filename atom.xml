@@ -3,11 +3,11 @@
   <title>Inkerk 硬核區塊鏈</title>
   
   <subtitle>InKerk硬核區塊鏈</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="https://inkerk.github.io/"/>
-  <updated>2018-11-03T01:31:57.877Z</updated>
-  <id>https://inkerk.github.io/</id>
+  <link href="https://inkerk.github.io/blog/"/>
+  <updated>2018-11-03T01:34:18.449Z</updated>
+  <id>https://inkerk.github.io/blog/</id>
   
   <author>
     <name>Inkerk Inc</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Woocommerce Customize ERC20 Currency 插件</title>
-    <link href="https://inkerk.github.io/2018/11/01/woocommerce-customize-erc20-currency-plugin/"/>
-    <id>https://inkerk.github.io/2018/11/01/woocommerce-customize-erc20-currency-plugin/</id>
+    <link href="https://inkerk.github.io/blog/2018/11/01/woocommerce-customize-erc20-currency-plugin/"/>
+    <id>https://inkerk.github.io/blog/2018/11/01/woocommerce-customize-erc20-currency-plugin/</id>
     <published>2018-11-01T03:53:49.000Z</published>
-    <updated>2018-11-03T01:31:57.877Z</updated>
+    <updated>2018-11-03T01:34:18.449Z</updated>
     
     <summary type="html">
     
@@ -40,10 +40,10 @@
   
   <entry>
     <title>Woocommerce ERC20 Payment Gateway 插件</title>
-    <link href="https://inkerk.github.io/2018/11/01/woocommerce-erc20-payment-gateway-plugin/"/>
-    <id>https://inkerk.github.io/2018/11/01/woocommerce-erc20-payment-gateway-plugin/</id>
+    <link href="https://inkerk.github.io/blog/2018/11/01/woocommerce-erc20-payment-gateway-plugin/"/>
+    <id>https://inkerk.github.io/blog/2018/11/01/woocommerce-erc20-payment-gateway-plugin/</id>
     <published>2018-11-01T03:47:47.000Z</published>
-    <updated>2018-11-03T01:31:57.877Z</updated>
+    <updated>2018-11-03T01:34:18.449Z</updated>
     
     <summary type="html">
     
@@ -63,10 +63,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://inkerk.github.io/2018/10/31/hello-world/"/>
-    <id>https://inkerk.github.io/2018/10/31/hello-world/</id>
+    <link href="https://inkerk.github.io/blog/2018/10/31/hello-world/"/>
+    <id>https://inkerk.github.io/blog/2018/10/31/hello-world/</id>
     <published>2018-10-31T16:00:00.000Z</published>
-    <updated>2018-11-03T01:31:57.877Z</updated>
+    <updated>2018-11-03T01:34:18.449Z</updated>
     
     <summary type="html">
     
